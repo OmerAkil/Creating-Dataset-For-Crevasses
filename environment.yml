@@ -1,0 +1,28 @@
+name: crevasse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core geospatial stack
+  - gdal
+  - proj
+  - rasterio
+  - rioxarray
+  - geopandas
+  - shapely
+  - fiona
+
+  # Image & scientific processing
+  - scikit-image
+  - scipy
+  - numpy
+  - matplotlib
+  - opencv
+
+  # IO utilities
+  - tifffile
+
+  # Jupyter environment
+  - jupyterlab

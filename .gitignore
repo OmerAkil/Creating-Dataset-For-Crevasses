@@ -1,0 +1,23 @@
+# Raster data
+*.tif
+*.tiff
+
+# Generated data
+*.png
+*.jpg
+*.npy
+*.npz
+*.pt
+*.pth
+PostProcessing/Masked/*.nc
+PostProcessing/Masked/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
